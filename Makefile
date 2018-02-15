@@ -10,5 +10,8 @@ ex01-fast: FileFast.class
 ex02: MapLeak.class
 	time java -XX:+PrintGCDetails -XX:+PrintGCTimeStamps  -cp . MapLeak
 
+ex02-fast: MapLeak.class
+	time java -DuseGoodKey=true -XX:+PrintGCDetails -XX:+PrintGCTimeStamps  -cp . MapLeak
+
 server: Server.class
 	java -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -cp . Server
