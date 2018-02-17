@@ -1,0 +1,25 @@
+ Performance counter stats for 'make ex03':
+
+     6,697,248,945      cycles                                                        (49.89%)
+        15,372,337      cache-misses                                                  (49.97%)
+       554,786,407      branches                                                      (50.16%)
+         5,569,340      branch-misses             #    1.00% of all branches          (50.37%)
+     1,043,653,898      L1-dcache-loads                                               (50.63%)
+       243,001,187      L1-dcache-load-misses     #   23.28% of all L1-dcache hits    (50.61%)
+       213,957,990      LLC-loads                                                     (50.56%)
+         7,639,411      LLC-load-misses           #    3.57% of all LL-cache hits     (50.25%)
+
+       3.060818644 seconds time elapsed
+
+ Performance counter stats for 'make ex03-fast':
+
+    10,157,144,459      cycles                                                        (49.81%)
+        34,676,886      cache-misses                                                  (49.76%)
+       462,276,858      branches                                                      (50.30%)
+         6,202,756      branch-misses             #    1.34% of all branches          (50.48%)
+       847,629,364      L1-dcache-loads                                               (50.63%)
+        82,616,472      L1-dcache-load-misses     #    9.75% of all L1-dcache hits    (50.62%)
+        19,539,008      LLC-loads                                                     (50.44%)
+         8,832,772      LLC-load-misses           #   45.21% of all LL-cache hits     (50.14%)
+
+       2.487833761 seconds time elapsed
