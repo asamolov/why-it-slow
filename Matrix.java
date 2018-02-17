@@ -1,5 +1,4 @@
 import java.util.Random;
-import java.util.function.Supplier;
 import java.util.function.ToIntFunction;
 
 public class Matrix {
