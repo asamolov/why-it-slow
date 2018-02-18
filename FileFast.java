@@ -35,6 +35,7 @@ public class FileFast {
         try (PrintWriter fw = new PrintWriter("lines.txt")) {
             for (int i = 0; i < lines; i++) {
                 fw.printf("Line: %d\n", i);
+                //fw.append("Line: ").println(i); // super fast
             }
         }
     }
